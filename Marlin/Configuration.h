@@ -543,7 +543,7 @@
   #define DELTA_DIAGONAL_ROD 290.0 // mm
 
   // height from z=0 to home position
-  #define DELTA_HEIGHT 258.1  // get this value from auto calibrate     ####################################################################################################################################################################################################################################################################
+  #define DELTA_HEIGHT 258.4  // get this value from auto calibrate     ####################################################################################################################################################################################################################################################################
 
   #define DELTA_ENDSTOP_ADJ { 0.0, 0.0, 0.0 } // get these from auto calibrate
 
@@ -1378,11 +1378,11 @@
 // Preheat Constants
 #define PREHEAT_1_TEMP_HOTEND 200
 #define PREHEAT_1_TEMP_BED      0
-#define PREHEAT_1_FAN_SPEED   245 // Value from 0 to 255
+#define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
 #define PREHEAT_2_TEMP_HOTEND 240
-#define PREHEAT_2_TEMP_BED     80
-#define PREHEAT_2_FAN_SPEED   245 // Value from 0 to 255
+#define PREHEAT_2_TEMP_BED      0
+#define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
 
 /**
  * Nozzle Park
